@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    text-size-adjust: 60px;
+    color: black;
+}
+
+ul {
+  background-color: lightpink;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+li {
+    float: center;
+}
+li a{
+  background-color: lightpink;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: lavender;
+}
+li:last-child {
+  border-right: none;
+}
+
+body {
+    background-color: #ffE1Ef;
+}
+
