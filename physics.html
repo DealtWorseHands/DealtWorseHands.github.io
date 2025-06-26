@@ -2,17 +2,43 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+        </script>
+        <title>Physics</title>
+
     </head>
     <body>
         <h1>Welcome to my blog!</h1>
     </body>
     <ul>
-    <li><a href="main.html"      >Home</a></li>
-    <li><a href="physics.html"   >Physics</a></li>
+    <li><a href="index.html"     >Home</a></li>
+    <li><a href="physics.html"   >Physics/Math</a></li>
     <li><a href="music.html"     >Music I Enjoy</a></li>
     <li><a href="trips.html"     >Cycling</a></li>
     <li><a href="stuffilike.html">Other Things I Like</a></li>
     <li><a href="about.html"     >About</a></li>
     </ul>
+
+    <!--<h2>Overcomplicating a high school problem with operators</h2>
+    <p class="centeredAlbumTitle">(and solving it very informally)</p>
+    <p class="problemText">Show that any function \(g:\mathbb{R}\to\mathbb{R}\) which satisfies</p>
+    $$g(x+1)+g(x-1)=\sqrt{3}g(x) \ \ \ \ \ \forall \ x \in \mathbb{R}$$
+    <p class="problemText">Is periodic, but that there exists no periodic function \(g:\mathbb{R}\to\mathbb{R}\) which satisfies</p>
+    $$g(x+1)+g(x-1)=\sqrt{5}g(x) \ \ \ \ \ \forall \ x \in \mathbb{R}$$
+    <p></p>
+    <p style="text-align: right;">Found in a Mathematics Olympiad from Romania</p>
+    <p></p>
+    <p>Let's overcomplicate this problem. Define the operator \(H\), which maps \(Hg(x)=g(x+1)\). It can be easily seen that it is invertible, \(H^{-1}g(x)=g(x-1)\), and that \(H^{h}(g(x))=g(x+h)\). So then, let's translate some properties</p>
+    $$\text{Periodicity:}\ \ \ \exists \ \tau \text{ such that } \forall \ x \in \mathbb{R}, H^{\tau} g(x)=g(x)$$
+    $$\text{The first equation:} Hg(x)+H^{-1}g(x)=\sqrt{3}g(x)$$ 
+    $$\text{The second equation:} Hg(x)+H^{-1}g(x)=\sqrt{5}g(x) \Rightarrow H^2 g(x) - \sqrt{5} H g(x) + g(x) = 0$$    
+    <p>Multiplying by \(H\) in both and with a little abuse of notation</p>
+    $$(H^2 - \sqrt{3} H + I)g(x)= 0$$
+    $$(H^2 - \sqrt{5} H + I)g(x)= 0$$
+    They take a similar form, so let us denote the general equation to be
+    $$(H^2 - pH + I)g(x)= 0$$
+    Assuming \(H=PDP^{-1}\), the above can be written as 
+    $$P(D^2 - pD + I)P^{-1}g(x)= 0$$ -->
 
 </html>

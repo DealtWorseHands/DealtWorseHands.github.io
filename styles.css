@@ -1,7 +1,13 @@
 h1 {
     text-align: center;
-    text-size-adjust: 60px;
+    font-size: 60px;
     color: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: black; 
 }
 
 ul {
@@ -34,3 +40,24 @@ body {
     background-color: #ffE1Ef;
 }
 
+.centeredAlbum {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 400px;
+}
+
+.centeredAlbumTitle {
+  text-align: center;
+  font-size: 12px;
+}
+
+.albumDescription {
+  font-size: 20px;
+}
+
+.problemText{
+  font-style: italic;
+  font-size: 20px;
+}
